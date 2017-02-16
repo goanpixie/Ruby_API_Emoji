@@ -18,6 +18,6 @@ class MainController < ApplicationController
       #JSON.load() turns the data into a hash
       @emoji = JSON.load(data)
       # render :text => data 
+
    end
 end
-
